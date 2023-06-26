@@ -69,7 +69,6 @@ function operate() {
   strArr.reverse();
   
   while (strArr.length > 1) {
-    console.log(strArr);
     let op1 = strArr.pop();
     let op = strArr.pop();
     let op2 = strArr.pop();
