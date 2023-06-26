@@ -1,0 +1,64 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  margin: 0;
+}
+
+.calc {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  width: 500px;
+  border: solid 3px black;
+  margin: 8px;
+}
+
+.expStr {
+  font-size: 24px;
+  padding: 4px 16px 4px 4px;
+  margin-bottom: auto;
+  margin-left: auto;
+}
+
+.inputStr {
+  font-size: 32px;
+  padding: 4px 16px 4px 4px;
+  margin-top: auto;
+  margin-left: auto;
+}
+
+.numpad {
+  display: flex;
+  flex-direction: column;
+}
+
+.actionSec {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 4px;
+}
+
+.actionBtn {
+  height: 60px;
+  width: 240px;
+  margin: 2px;
+}
+
+.numpadBtn {
+  height: 60px;
+  width: 120px;
+  margin: 2px;
+}

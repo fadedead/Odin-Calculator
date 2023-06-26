@@ -5,44 +5,46 @@
   <title></title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="css/style.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
+  <script src="script.js"></script>
   <div class="calc">
     <div class="screen">
-
+      <div class="expStr"> <p></p></div>
+      <div class="inputStr"> <p></p></div>
     </div>
     <div class="numpad">
-      <div>
+      <div class="actionSec">
         <div>
-          <button type="button"> CLEAR </button>
-          <button type="button"> DELETE </button>
+          <button value="clr" class="actionBtn" type="button" onclick="getInput(event)"> CLEAR </button>
+          <button value="del" class="actionBtn" type="button" onclick="getInput(event)"> DELETE </button>
         </div>
       </div>
       <div>
-        <button type="button"> 7 </button>
-        <button type="button"> 8 </button>
-        <button type="button"> 9 </button>
-        <button type="button"> % </button>
+        <button value="7" class="numpadBtn" type="button" onclick="getInput(event)"> 7 </button>
+        <button value="8" class="numpadBtn" type="button" onclick="getInput(event)"> 8 </button>
+        <button value="9" class="numpadBtn" type="button" onclick="getInput(event)"> 9 </button>
+        <button value="/" class="numpadBtn" type="button" onclick="getInput(event)"> / </button>
       </div>
       <div>
-        <button type="button"> 4 </button>
-        <button type="button"> 5 </button>
-        <button type="button"> 6 </button>
-        <button type="button"> x </button>
+        <button value="4" class="numpadBtn" type="button" onclick="getInput(event)"> 4 </button>
+        <button value="5" class="numpadBtn" type="button" onclick="getInput(event)"> 5 </button>
+        <button value="6" class="numpadBtn" type="button" onclick="getInput(event)"> 6 </button>
+        <button value="x" class="numpadBtn" type="button" onclick="getInput(event)"> x </button>
       </div>
       <div>
-        <button type="button"> 1 </button>
-        <button type="button"> 2 </button>
-        <button type="button"> 3 </button>
-        <button type="button"> - </button>
+        <button value="1" class="numpadBtn" type="button" onclick="getInput(event)"> 1 </button>
+        <button value="2" class="numpadBtn" type="button" onclick="getInput(event)"> 2 </button>
+        <button value="3" class="numpadBtn" type="button" onclick="getInput(event)"> 3 </button>
+        <button value="-" class="numpadBtn" type="button" onclick="getInput(event)"> - </button>
       </div>
       <div>
-        <button type="button"> . </button>
-        <button type="button"> 0 </button>
-        <button type="button"> = </button>
-        <button type="button"> + </button>
+        <button value="." class="numpadBtn" type="button" onclick="getInput(event)"> . </button>
+        <button value="0" class="numpadBtn" type="button" onclick="getInput(event)"> 0 </button>
+        <button value="=" class="numpadBtn" type="button" onclick="getInput(event)"> = </button>
+        <button value="+" class="numpadBtn" type="button" onclick="getInput(event)"> + </button>
       </div>
     </div>
   </div>
